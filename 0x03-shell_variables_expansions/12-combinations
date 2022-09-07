@@ -1,2 +1,3 @@
 #!/bin/bash
-echo %s {a..z}{a..z}
+printf "%s
+" {a..z}{a..z} | grep -v "oo"
