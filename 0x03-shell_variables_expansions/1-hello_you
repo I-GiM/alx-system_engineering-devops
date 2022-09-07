@@ -1,2 +1,3 @@
 #!/bin/bash
-w
+user=$(whoami)
+echo "hello $user"
